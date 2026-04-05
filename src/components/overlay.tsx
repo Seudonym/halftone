@@ -92,7 +92,7 @@ export const Overlay = ({ isOpen, onClose, title, children }: OverlayProps) => {
             ×
           </button>
         </div>
-        <div className="p-6 flex flex-col gap-4">{children}</div>
+        <div className="p-6 flex flex-col gap-4 font-mono">{children}</div>
         <div className="h-3 dithered-fill border-t-2 border-black" />
       </div>
     </div>
